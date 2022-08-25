@@ -1,9 +1,0 @@
-```print('\033[1;35m''Leitor de letras do seu nome.''\033[m') #nome do programa
-nome = input('Insira seu nome completo: ').strip() #entrada do nome completo
-print('Seu nome em maiúsculo é', nome.upper()) #nome em maiúsculo
-print('Seu nome em minúsculo é', nome.lower()) #nome em minúsculo
-nome1 = nome.replace(" ", "") #tirar os espaços
-print('Seu nome completo tem {}{}{} letras.'.format('\033[1;34m', len(nome1), '\033[m')) #tamanho do primeiro nome
-nome2 = nome.split() # separa os nomes/sobrenomes
-print('Seu primeiro nome tem {}{}{} letras.'.format('\033[1;31m', len(nome2[0]), '\033[m')) #output 
-```
